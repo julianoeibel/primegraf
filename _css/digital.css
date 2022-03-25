@@ -1,0 +1,123 @@
+    h1, h2, h3, h4, h5, a, button {
+        color: #2E4465;
+        font-family: 'Anton', sans-serif;
+        text-align: justify;
+        font-weight: normal;
+    }
+
+    .titlePageBar {
+        position: relative;
+        float: left;
+        width: 100%;
+        clear: both;
+        background-color: #2E4465;
+    }
+
+    .titlePageBar h1 {
+        color: white;
+        font-size: 2.5em;
+        font-weight: 100;
+    }
+
+    .productInfo {
+        width: 100%;
+        position: relative;
+        float: left;
+        padding: 50px 0 0;
+        border-top: 1px solid #2E4465;
+    }
+
+    .boxProduct {
+        position: relative;
+        float: left;
+        width: 50%;
+        padding: 0 0 50px;
+    }
+    #etiquetas .boxProduct:first-of-type {
+        float: right;
+    }
+
+    #etiquetas .boxProduct:nth-child(2) img {
+        float: right;
+    }
+
+    .titleProduct {
+        margin: 0;
+    }
+
+    .boxProduct button {
+        width: 180px;
+        background-color: #2E4465;
+        height: 50px;
+        color: #f1f1f1;
+        cursor: pointer;
+        border-radius: 10px;
+        border: none;
+        margin-top: 50px;
+        transition: all 0.2s ease-in-out; 
+        -webkit-box-shadow: 0 0 5px #2F3736;
+        -moz-box-shadow: 0 0 5px #2F3736;
+        box-shadow: 0 0 5px #2F3736;
+    }
+
+    .boxProduct button:hover {
+        background-color: #4782C2;
+        transform: scale(1.1);
+    }
+
+    .boxProduct button img {
+        position: relative;
+        float: right;
+        width: 25px;
+    }
+
+    #boxImg {
+        width: 80%;
+    }
+
+    .productInfo:first-child {
+        border: none;   
+    }
+    .bold {
+        font-weight: bold;
+    }
+
+    .italicLigth {
+        font-style: italic;
+        font-weight: lighter;
+        font-size: 12px;
+    }
+
+    #lonaIlhos .boxProduct>img {
+        float: right;
+    }
+
+@media (min-width: 1441px) and (max-width: 1980px) {
+ 
+  
+}
+
+@media (min-width: 1025px) and (min-width: 1440px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+ 
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 425px) {
+    .boxProduct {
+        width: 100%;
+
+    }
+
+    #boxImg {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 425px) {
+
+}
